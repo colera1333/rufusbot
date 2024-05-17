@@ -1,12 +1,20 @@
-## Getting Started
 
-## Prerequisites
-To run RufusBot, you need to have the following installed:
-- Python 3.8+
-- Discord.py library
-- Other dependencies listed in requirements.txt
+# 2. Install the required dependencies:
 
-## Installation
-1. Clone the repository:
+```python
+install -r requirements.txt
+```
 
-```bash
+## Configuration
+Before running the bot, you need to set up your Discord bot token. Create a `.env` file in the root directory and add your discord bot_token:
+
+```console
+export DISCORD_TOKEN=your_discord_bot_token_here
+```
+
+## Running the Bot
+To start the bot, run the following command:
+
+```prython
+brrunfusbot.py
+```
