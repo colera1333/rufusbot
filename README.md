@@ -1,15 +1,22 @@
-## Preqrisites
 
-To run RufusBot, you need to have the following installed:
+## Configuration
+Before running the bot, you need to set up your Discord bot token. Create a .env file in the root directory and add your token:
 
-- Python 3.8+
-- Discord.py library
-- Other dependencies listed in "requirements.txt"
 
-## Installation
-1. Clone the repository:
+    DISCORD_TOKEN='your_discord_bot_token_here'
 
-    git clone https://github.com/colera1333/rufusbot.git
-    cd rufusbot
-2. Install the required dependencies:
-    pip install -r requirements.txt
+## Running the Bot
+
+To start the bot, run the following command:
+
+    python rufusbot.py
+
+## Usage
+
+## LLM ReSponse
+
+RufusBot can respond to queries using its inbuilt language model capabilities. Simply type your questions in any text channel where the bot is present, and it will provide intelligent responses.
+
+## Music Commands
+
+To play music use the following commands:
